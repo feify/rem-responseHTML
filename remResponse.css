@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+html,body,.content{
+    width:100%;
+    max-width: 1024px!important;
+    margin:auto;
+    overflow: hidden;
+}
+.header,.main{
+     width:100%;
+     border:1px solid red;
+}
+.header{
+      height: .5rem;
+}
+.main{
+	height: 5rem;
+	display: flex;
+	display: -moz-flex;
+	display: -webkit-flex;
+	flex-direction: row;
+}
+.main>div{
+	width:2.13rem;
+	height:3rem;
+	border:1px solid blue;
+}
